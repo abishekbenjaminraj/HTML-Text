@@ -12,7 +12,11 @@ p{
     direction: rtl;
     unicode-bidi: bidi-override;
 }
-
+.ani{
+    border: 5px solid blue;
+    margin-top: 20px;
+    padding-left: 5px;
+}
 img{
     vertical-align: text-top;
 }
@@ -20,28 +24,53 @@ img{
 .one{
     text-decoration-line:line-through;
     text-decoration-color: blanchedalmond;
-    text-decoration-style: dotted;
+    text-decoration-style:dashed;
     text-decoration-thickness: 10px;
+}
+#Piece{
+    border: 5px solid darkmagenta;
+    margin-top: 10px;
+    padding-left: 5px;
 }
 
 .drag{
-    text-transform: uppercase;
+    border: 5px solid yellowgreen;
+    margin-top: 10px;
+    padding-left: 5px;
 }
 
 .blac{
+    border: 5px solid chocolate;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.juju{
+    text-shadow: 2px 2px 5px #0000ff;
+    margin-top: 10px;
+    border: 5px solid rgb(53, 31, 31);
+    padding-left: 5px;
+}
+
+#thank{
+    text-shadow: 2px 2px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+#abi{
+    border: 5px solid red;
+    padding-left: 5px;
+}
+.you{
+    border: 5px solid fuchsia;
+    margin-top: 10px;
+}
+#clo{
     text-indent: 20px;
     letter-spacing: 20px;
     line-height: 50px;
     word-spacing: 20px;
     white-space: nowrap;
 }
-.juju{
-    text-shadow: 2px 2px 5px #0000ff;
+#ball{
+    text-transform: uppercase;
 }
-
-#thank{
-    text-shadow: 2px 2px;
-}
-
-
-
